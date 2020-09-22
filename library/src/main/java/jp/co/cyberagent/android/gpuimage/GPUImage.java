@@ -66,7 +66,7 @@ public class GPUImage {
     private GLTextureView glTextureView;
     private GPUImageFilter filter;
     private Bitmap currentBitmap;
-    private ScaleType scaleType = ScaleType.CENTER_CROP;
+    private ScaleType scaleType = ScaleType.CENTER_INSIDE;
     private int scaleWidth, scaleHeight;
 
     /**
