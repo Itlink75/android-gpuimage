@@ -73,7 +73,7 @@ public class GPUImageRenderer implements GLSurfaceView.Renderer, GLTextureView.R
     private Rotation rotation;
     private boolean flipHorizontal;
     private boolean flipVertical;
-    private GPUImage.ScaleType scaleType = GPUImage.ScaleType.CENTER_CROP;
+    private GPUImage.ScaleType scaleType = GPUImage.ScaleType.CENTER_INSIDE;
 
     private float backgroundRed = 0;
     private float backgroundGreen = 0;
