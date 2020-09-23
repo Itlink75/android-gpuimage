@@ -12,17 +12,6 @@ Goal is to have something as similar to GPUImage as possible. Vertex and fragmen
 
 ## Usage
 
-### Gradle dependency
-
-```groovy
-repositories {
-    jcenter()
-}
-
-dependencies {
-    implementation 'jp.co.cyberagent.android:gpuimage:2.x.x'
-}
-```
 
 ### Sample Code
 #### With preview:
@@ -62,15 +51,6 @@ public override fun onCreate(savedInstanceState: Bundle?) {
 }
 ```
 
-#### Using GPUImageView
-```xml
-<jp.co.cyberagent.android.gpuimage.GPUImageView
-    android:id="@+id/gpuimageview"
-    android:layout_width="match_parent"
-    android:layout_height="match_parent"
-    app:gpuimage_show_loading="false"
-    app:gpuimage_surface_type="texture_view" /> <!-- surface_view or texture_view -->
-```
 
 Java:
 ```java
@@ -258,17 +238,4 @@ Make sure that you run the clean target when using maven.
 gradle clean assemble
 ```
 
-## License
-    Copyright 2018 CyberAgent, Inc.
 
-    Licensed under the Apache License, Version 2.0 (the "License");
-    you may not use this file except in compliance with the License.
-    You may obtain a copy of the License at
-
-       http://www.apache.org/licenses/LICENSE-2.0
-
-    Unless required by applicable law or agreed to in writing, software
-    distributed under the License is distributed on an "AS IS" BASIS,
-    WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
-    See the License for the specific language governing permissions and
-    limitations under the License.
